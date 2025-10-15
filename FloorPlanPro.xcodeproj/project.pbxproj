@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C208CF7D1C4CB7966B6A61 /* FloorPlanProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338770889B146E3B4F91A41 /* FloorPlanProApp.swift */; };
+		0602ADF22F52498F8288D890 /* RoomScanHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4702516E8F964492BD0C9E31 /* RoomScanHostView.swift */; };
+		0890E6C2DA524C14B0FCF41F /* PlanProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48315DD56994DA3B585123A /* PlanProjector.swift */; };
+		15521A67F4DF4214B39D879C /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C94B977B4F51B9CB8C1F /* ExportService.swift */; };
+		1BE07229945B4D83BC596765 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131CC40B6054C8A91024F0D /* DashboardView.swift */; };
+		49D0E497D6944F3D8A58DE90 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F4A8524B3451C8A1B846B /* Models.swift */; };
+		5F36D5F5BA404401837D23C4 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C86E8B7B24EAAB886F86C /* ScanView.swift */; };
+		67C644EAB30448FD91DD51BE /* NewScanFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15C3E22640B0A1E8C42A /* NewScanFlowView.swift */; };
+		730A5172A4BC4A429B5E0A5C /* TwoDPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DE2912044462AB999A259 /* TwoDPlanView.swift */; };
+		779971E46EDB4CC0AFEA172F /* ThreeDQuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F8E5E3A8E419A9D37C615 /* ThreeDQuickLookView.swift */; };
+		C82931A4C4F346AF963965A3 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4E56F0A104A51BE89F963 /* ProjectDetailView.swift */; };
+		DFCF5481A3284AC3822D2F40 /* InfoPlistSnippet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C7AF7ED546E4C12988B82CB /* InfoPlistSnippet.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C7AF7ED546E4C12988B82CB /* InfoPlistSnippet.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoPlistSnippet.plist; sourceTree = "<group>"; };
+		0D7DE2912044462AB999A259 /* TwoDPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDPlanView.swift; sourceTree = "<group>"; };
+		3DB62444940D425CA55575C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4702516E8F964492BD0C9E31 /* RoomScanHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScanHostView.swift; sourceTree = "<group>"; };
+		4C6F8E5E3A8E419A9D37C615 /* ThreeDQuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDQuickLookView.swift; sourceTree = "<group>"; };
+		5338770889B146E3B4F91A41 /* FloorPlanProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanProApp.swift; sourceTree = "<group>"; };
+		65B24A402E1D4DEB8E161A4D /* pre-commit */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "pre-commit"; sourceTree = "<group>"; }; 
+		7E9D15C3E22640B0A1E8C42A /* NewScanFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScanFlowView.swift; sourceTree = "<group>"; };
+		7F7F4A8524B3451C8A1B846B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8361C94B977B4F51B9CB8C1F /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		9131CC40B6054C8A91024F0D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9D4DD03EF6934F66B9AC8D38 /* ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ci.yml; sourceTree = "<group>"; };
+		A85C86E8B7B24EAAB886F86C /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		ADEE9D46A99848338E36D804 /* release.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = release.yml; sourceTree = "<group>"; };
+		B48315DD56994DA3B585123A /* PlanProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanProjector.swift; sourceTree = "<group>"; };
+		C6DCC1AA28784253B9EE9958 /* commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "commit-msg"; sourceTree = "<group>"; };
+		F00AD05F978F457FA363AFB9 /* FloorPlanPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloorPlanPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E4E56F0A104A51BE89F963 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9A576E54F84E34808CBC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A9C25AEF8A4E8FBFD35B95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4702516E8F964492BD0C9E31 /* RoomScanHostView.swift */,
+				B48315DD56994DA3B585123A /* PlanProjector.swift */,
+				8361C94B977B4F51B9CB8C1F /* ExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F7475D93E9344D88BD32BD2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6EB21D96DC2A4B3B8B2CEC60 /* App */,
+				3C7143209716455BB2225B25 /* Models */,
+				14A9C25AEF8A4E8FBFD35B95 /* Services */,
+				5DDC61FAEA244411A88965A2 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3C7143209716455BB2225B25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F7F4A8524B3451C8A1B846B /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56E609F86CA94AD2963A7A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00AD05F978F457FA363AFB9 /* FloorPlanPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDC61FAEA244411A88965A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9131CC40B6054C8A91024F0D /* DashboardView.swift */,
+				7E9D15C3E22640B0A1E8C42A /* NewScanFlowView.swift */,
+				A85C86E8B7B24EAAB886F86C /* ScanView.swift */,
+				0D7DE2912044462AB999A259 /* TwoDPlanView.swift */,
+				4C6F8E5E3A8E419A9D37C615 /* ThreeDQuickLookView.swift */,
+				F3E4E56F0A104A51BE89F963 /* ProjectDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EB21D96DC2A4B3B8B2CEC60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5338770889B146E3B4F91A41 /* FloorPlanProApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7A117E55186542F09C04A9DE /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				65B24A402E1D4DEB8E161A4D /* pre-commit */,
+				8A6C64F3E6D6427495D992AE /* hooks */,
+			);
+			path = scripts;
+			sourceTree = SOURCE_ROOT;
+		};
+		8A6C64F3E6D6427495D992AE /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DCC1AA28784253B9EE9958 /* commit-msg */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		9A4C0C2510DB40D99E5DB52E /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				9D4DD03EF6934F66B9AC8D38 /* ci.yml */,
+				ADEE9D46A99848338E36D804 /* release.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		C210AF7BFF144904BE0865EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C7AF7ED546E4C12988B82CB /* InfoPlistSnippet.plist */,
+				3DB62444940D425CA55575C2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF1BF5B1B67D43CA9042220B /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C0C2510DB40D99E5DB52E /* workflows */,
+			);
+			path = .github;
+			sourceTree = SOURCE_ROOT;
+		};
+		F647E5D0B5E14C65A8E50DA6 = {
+			isa = PBXGroup;
+			children = (
+				1F7475D93E9344D88BD32BD2 /* Sources */,
+				C210AF7BFF144904BE0865EE /* Resources */,
+				CF1BF5B1B67D43CA9042220B /* .github */,
+				7A117E55186542F09C04A9DE /* scripts */,
+				56E609F86CA94AD2963A7A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA9F187C3A44452B7C66152 /* FloorPlanPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AB90F76B134979A2AF9F91 /* Build configuration list for PBXNativeTarget "FloorPlanPro" */;
+			buildPhases = (
+				D224D1DDE7494574A87D571E /* Sources */,
+				6D9A576E54F84E34808CBC52 /* Frameworks */,
+				86A21EA712BE49F88C1AE90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloorPlanPro;
+			productName = FloorPlanPro;
+			productReference = F00AD05F978F457FA363AFB9 /* FloorPlanPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8E9E1E2A1A417E9D6AD8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BCA9F187C3A44452B7C66152 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9E7F7B8966C4D40952CC828 /* Build configuration list for PBXProject "FloorPlanPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F647E5D0B5E14C65A8E50DA6;
+			productRefGroup = 56E609F86CA94AD2963A7A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA9F187C3A44452B7C66152 /* FloorPlanPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A21EA712BE49F88C1AE90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF5481A3284AC3822D2F40 /* InfoPlistSnippet.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D224D1DDE7494574A87D571E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C208CF7D1C4CB7966B6A61 /* FloorPlanProApp.swift in Sources */,
+				49D0E497D6944F3D8A58DE90 /* Models.swift in Sources */,
+				0602ADF22F52498F8288D890 /* RoomScanHostView.swift in Sources */,
+				0890E6C2DA524C14B0FCF41F /* PlanProjector.swift in Sources */,
+				15521A67F4DF4214B39D879C /* ExportService.swift in Sources */,
+				1BE07229945B4D83BC596765 /* DashboardView.swift in Sources */,
+				67C644EAB30448FD91DD51BE /* NewScanFlowView.swift in Sources */,
+				5F36D5F5BA404401837D23C4 /* ScanView.swift in Sources */,
+				730A5172A4BC4A429B5E0A5C /* TwoDPlanView.swift in Sources */,
+				779971E46EDB4CC0AFEA172F /* ThreeDQuickLookView.swift in Sources */,
+				C82931A4C4F346AF963965A3 /* ProjectDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47C8C8E0537D406BBA3B38C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		59F0DA1A72F149549910C983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.9;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC7AE651DB34F42A6ED7530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.floorplanpro.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF664CE0A24A45E08F034AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.floorplanpro.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AB90F76B134979A2AF9F91 /* Build configuration list for PBXNativeTarget "FloorPlanPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC7AE651DB34F42A6ED7530 /* Debug */,
+				AF664CE0A24A45E08F034AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E7F7B8966C4D40952CC828 /* Build configuration list for PBXProject "FloorPlanPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8C8E0537D406BBA3B38C7 /* Debug */,
+				59F0DA1A72F149549910C983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8E9E1E2A1A417E9D6AD8C4 /* Project object */;
+}
+// !$*UTF8*$!
+// !PBXProject
+// 	archiveVersion = 1;
+// 	classes = {};
+// 	objectVersion = 46;
+// 	objects = {
+// 		/* Begin PBXBuildFile section */
+// 		/* End PBXBuildFile section */
+
+// 		/* Begin PBXFileReference section */
+// 		/* End PBXFileReference section */
+
+// 		/* Begin PBXGroup section */
+// 		/* End PBXGroup section */
+
+// 		/* Begin PBXNativeTarget section */
+// 		/* End PBXNativeTarget section */
+
+// 		/* Begin PBXProject section */
+// 		/* End PBXProject section */
+
+// 		/* Begin PBXTargetDependency section */
+// 		/* End PBXTargetDependency section */
+
+// 		/* Begin XCBuildConfiguration section */
+// 		/* End XCBuildConfiguration section */
+
+// 		/* Begin XCConfigurationList section */
+// 		/* End XCConfigurationList section */
+// 	};
+// 	rootObject = XX; // Replace XX with the actual root object identifier
+// }

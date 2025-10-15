@@ -1,0 +1,27 @@
+#!/bin/bash
+
+set -euo pipefail
+
+STATUS=0
+
+if command -v swiftformat >/dev/null 2>&1; then
+  echo "Running swiftformat"
+  if ! swiftformat .; then
+    echo "swiftformat reported issues"
+    STATUS=1
+  fi
+else
+  echo "swiftformat not installed — skipping"
+fi
+
+if command -v swiftlint >/dev/null 2>&1; then
+  echo "Running swiftlint"
+  if ! swiftlint; then
+    echo "swiftlint reported issues"
+    STATUS=1
+  fi
+else
+  echo "swiftlint not installed — skipping"
+fi
+
+exit $STATUS

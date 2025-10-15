@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build-and-archive:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Build Release (unsigned)
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -scheme FloorPlanPro \
+            -destination "generic/platform=iOS" \
+            -configuration Release \
+            CODE_SIGNING_ALLOWED=NO \
+            build | xcpretty
+
+      - name: Package build products
+        run: |
+          ARTIFACT_DIR="FloorPlanPro-Release"
+          rm -rf "$ARTIFACT_DIR"
+          mkdir -p "$ARTIFACT_DIR"
+          cp -R build "${ARTIFACT_DIR}/Build"
+          zip -r "$ARTIFACT_DIR.zip" "$ARTIFACT_DIR"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FloorPlanPro-release
+          path: FloorPlanPro-Release.zip
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: FloorPlanPro-Release.zip
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

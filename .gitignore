@@ -1,0 +1,24 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# SwiftPM
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# User settings
+*.xccolordata
+*.xccoverage
+xcuserdata/
+
+# Logs
+*.log
