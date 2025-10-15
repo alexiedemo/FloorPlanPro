@@ -6,7 +6,47 @@
 	objectVersion = 56;
 	objects = {
 
+<<<<<<< HEAD
+/* Begin PBXBuildFile section */
+		03C208CF7D1C4CB7966B6A61 /* FloorPlanProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338770889B146E3B4F91A41 /* FloorPlanProApp.swift */; };
+		0602ADF22F52498F8288D890 /* RoomScanHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4702516E8F964492BD0C9E31 /* RoomScanHostView.swift */; };
+		0890E6C2DA524C14B0FCF41F /* PlanProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48315DD56994DA3B585123A /* PlanProjector.swift */; };
+		15521A67F4DF4214B39D879C /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C94B977B4F51B9CB8C1F /* ExportService.swift */; };
+		1BE07229945B4D83BC596765 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131CC40B6054C8A91024F0D /* DashboardView.swift */; };
+	2E0C7D2D7B1E4B119A51C6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8E8A1E5F04DD98F5A2AE9 /* Assets.xcassets */; };
+		49D0E497D6944F3D8A58DE90 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F4A8524B3451C8A1B846B /* Models.swift */; };
+		5F36D5F5BA404401837D23C4 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C86E8B7B24EAAB886F86C /* ScanView.swift */; };
+		67C644EAB30448FD91DD51BE /* NewScanFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15C3E22640B0A1E8C42A /* NewScanFlowView.swift */; };
+		730A5172A4BC4A429B5E0A5C /* TwoDPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DE2912044462AB999A259 /* TwoDPlanView.swift */; };
+		779971E46EDB4CC0AFEA172F /* ThreeDQuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F8E5E3A8E419A9D37C615 /* ThreeDQuickLookView.swift */; };
+		C82931A4C4F346AF963965A3 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4E56F0A104A51BE89F963 /* ProjectDetailView.swift */; };
+		DFCF5481A3284AC3822D2F40 /* InfoPlistSnippet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C7AF7ED546E4C12988B82CB /* InfoPlistSnippet.plist */; };
+/* End PBXBuildFile section */
+
+=======
+>>>>>>> 582278d605a454ceccffeec4201ee14437bfef72
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		0C7AF7ED546E4C12988B82CB /* InfoPlistSnippet.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoPlistSnippet.plist; sourceTree = "<group>"; };
+		0D7DE2912044462AB999A259 /* TwoDPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDPlanView.swift; sourceTree = "<group>"; };
+		3DB62444940D425CA55575C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4702516E8F964492BD0C9E31 /* RoomScanHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScanHostView.swift; sourceTree = "<group>"; };
+		4C6F8E5E3A8E419A9D37C615 /* ThreeDQuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDQuickLookView.swift; sourceTree = "<group>"; };
+		5338770889B146E3B4F91A41 /* FloorPlanProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanProApp.swift; sourceTree = "<group>"; };
+	5F4E34D59D6A4A5DB8C6C6E9 /* generate_app_icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "generate_app_icons.swift"; sourceTree = "<group>"; };
+		65B24A402E1D4DEB8E161A4D /* pre-commit */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "pre-commit"; sourceTree = "<group>"; }; 
+		7E9D15C3E22640B0A1E8C42A /* NewScanFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScanFlowView.swift; sourceTree = "<group>"; };
+		7F7F4A8524B3451C8A1B846B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8361C94B977B4F51B9CB8C1F /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		9131CC40B6054C8A91024F0D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9D4DD03EF6934F66B9AC8D38 /* ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ci.yml; sourceTree = "<group>"; };
+		A85C86E8B7B24EAAB886F86C /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+	A1D8E8A1E5F04DD98F5A2AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEE9D46A99848338E36D804 /* release.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = release.yml; sourceTree = "<group>"; };
+		B48315DD56994DA3B585123A /* PlanProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanProjector.swift; sourceTree = "<group>"; };
+		C6DCC1AA28784253B9EE9958 /* commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "commit-msg"; sourceTree = "<group>"; };
+=======
+>>>>>>> 582278d605a454ceccffeec4201ee14437bfef72
 		F00AD05F978F457FA363AFB9 /* FloorPlanPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloorPlanPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -29,6 +69,75 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		5DDC61FAEA244411A88965A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9131CC40B6054C8A91024F0D /* DashboardView.swift */,
+				7E9D15C3E22640B0A1E8C42A /* NewScanFlowView.swift */,
+				A85C86E8B7B24EAAB886F86C /* ScanView.swift */,
+				0D7DE2912044462AB999A259 /* TwoDPlanView.swift */,
+				4C6F8E5E3A8E419A9D37C615 /* ThreeDQuickLookView.swift */,
+				F3E4E56F0A104A51BE89F963 /* ProjectDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EB21D96DC2A4B3B8B2CEC60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5338770889B146E3B4F91A41 /* FloorPlanProApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7A117E55186542F09C04A9DE /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				65B24A402E1D4DEB8E161A4D /* pre-commit */,
+				8A6C64F3E6D6427495D992AE /* hooks */,
+				5F4E34D59D6A4A5DB8C6C6E9 /* generate_app_icons.swift */,
+			);
+			path = scripts;
+			sourceTree = SOURCE_ROOT;
+		};
+		8A6C64F3E6D6427495D992AE /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DCC1AA28784253B9EE9958 /* commit-msg */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		9A4C0C2510DB40D99E5DB52E /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				9D4DD03EF6934F66B9AC8D38 /* ci.yml */,
+				ADEE9D46A99848338E36D804 /* release.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		C210AF7BFF144904BE0865EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C7AF7ED546E4C12988B82CB /* InfoPlistSnippet.plist */,
+				3DB62444940D425CA55575C2 /* Info.plist */,
+				A1D8E8A1E5F04DD98F5A2AE9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF1BF5B1B67D43CA9042220B /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C0C2510DB40D99E5DB52E /* workflows */,
+			);
+			path = .github;
+			sourceTree = SOURCE_ROOT;
+		};
+=======
+>>>>>>> 582278d605a454ceccffeec4201ee14437bfef72
 		F647E5D0B5E14C65A8E50DA6 = {
 			isa = PBXGroup;
 			children = (
@@ -45,6 +154,7 @@
 			buildPhases = (
 				D224D1DDE7494574A87D571E /* Sources */,
 				6D9A576E54F84E34808CBC52 /* Frameworks */,
+				9E7CE2F6A4424FAC93E5FDC1 /* Generate App Icons */,
 				86A21EA712BE49F88C1AE90E /* Resources */,
 			);
 			buildRules = (
@@ -94,10 +204,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+			2E0C7D2D7B1E4B119A51C6AF /* Assets.xcassets in Resources */,
+				DFCF5481A3284AC3822D2F40 /* InfoPlistSnippet.plist in Resources */,
+=======
+>>>>>>> 582278d605a454ceccffeec4201ee14437bfef72
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+	9E7CE2F6A4424FAC93E5FDC1 /* Generate App Icons */ = {
+		isa = PBXShellScriptBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		inputFileListPaths = (
+		);
+		inputPaths = (
+			"$(PROJECT_DIR)/scripts/generate_app_icons.swift",
+		);
+		outputFileListPaths = (
+		);
+		outputPaths = (
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-20@1x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-20@2x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-20@3x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-29@1x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-29@2x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-29@3x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-40@1x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-40@2x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-40@3x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-60@2x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-60@3x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-76@1x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-76@2x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-83.5@2x.png",
+			"$(PROJECT_DIR)/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+		shellPath = /bin/sh;
+		shellScript = "set -e\\nxcrun swift \\\"${PROJECT_DIR}/scripts/generate_app_icons.swift\\"\\n";
+	};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D224D1DDE7494574A87D571E /* Sources */ = {
